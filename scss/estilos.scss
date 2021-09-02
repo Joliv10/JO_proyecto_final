@@ -1,0 +1,61 @@
+
+//IMPORTS//
+@import "base"; //Importa las variables de colores y el reset de html//
+@import "index"; //Importa los estilos de la pagina principal//
+@import "aboutDev"; //Importa los estilos de la seccion "About Dev"//
+@import "resources"; //Importa los estilos de la seccion "Resources"//
+
+
+//COMPONENTES GENERALES (Se usan en todas las páginas)//
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #000000, #010101, #030202, #040304, #050405, #080609, #09080e, #090a12, #0a0d18, #09101d, #061322, #011627);
+}
+
+/*Clases para asignar formato a los textos*/
+.titulo {
+    font-family: 'Cinzel', serif;
+    color: $teal;
+    font-size: 3vw;
+    text-align: center;
+}
+    
+.subTitulo {
+    font-family: 'Gowun Dodum', sans-serif;
+    color: $purple-ish;
+    font-size: 2rem;
+}
+    
+.smallText {
+    font-family: 'Gowun Dodum', sans-serif;
+    color: $quicksilver;
+    font-size: 1.9rem;
+    }
+
+/*Divisor de secciones*/
+.page-divider {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.page-divider img {
+    width: 1500px;
+    overflow: hidden;
+}
+
+/*Menú de navegación*/
+.logo {
+    width: 80px;
+}
+
+ 
+/*Footer styles*/
+footer {
+    margin-top: 40px;
+    text-align: center;
+}

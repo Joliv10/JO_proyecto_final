@@ -1,0 +1,67 @@
+/*Team cherry red logo*/
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .icon__image {
+        width: 70%;
+        max-width: 580px;
+    }
+}
+
+
+
+/*Introducción de los desarrolladores*/
+
+.developers {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .developers__content {
+        flex-basis: 20%;
+        padding: 0px 50px;
+        margin: 10px;
+        text-justify: newspaper;
+
+        h3 {
+            color: $cherryRed;
+        }
+    }
+}
+
+/*Historia del equipo*/
+.history {
+    width: 100vw;
+    display: flex;
+    padding-left: 200px;
+
+    .history__text {
+        margin-left: 50px;
+        flex-basis: 50%;
+        align-self: center;
+
+        h3 {
+            text-align: left;
+            color: $quicksilver;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    }
+
+    .history__photo {
+        padding: 40px 20px 10px 20px;
+        flex-basis: 50%;
+        margin-left: 50px;
+
+         img {
+             width: 60%;
+             height: auto;
+         }
+    }
+
+}
