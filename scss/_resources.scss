@@ -1,0 +1,18 @@
+/*Galeria de Screenshots*/
+@import "base";
+
+.gallery {
+    padding: 80px 0;
+
+    img {
+       background-color: white;
+       padding: 5px;
+       width: 100%;
+    }
+}
+
+/*Sección de Mapas*/
+
+.indice__lista__element {
+    color: $quicksilver;
+}

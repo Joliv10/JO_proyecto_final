@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/*==========================
+    PALETA DE COLORES
+==========================*/
+/*==========================
+        RESETS
+==========================*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none; }
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block; }
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/*==========================
+    PALETA DE COLORES
+==========================*/
+/*==========================
+        RESETS
+==========================*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none; }
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block; }
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/*TITULO*/
+.mainTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; }
+  .mainTitle img {
+    width: 90%;
+    max-width: 1500px; }
+
+/*VIDEO*/
+.trailer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .trailer .trailer__video {
+    width: 80%; }
+
+/*INTRODUCCION*/
+.introduccion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px; }
+  .introduccion .introduccion__picture {
+    flex-basis: 100%;
+    max-width: 880px; }
+  .introduccion .introduccion__article {
+    flex-basis: 30%;
+    padding: 4.5em 8em 4.5em 4.5em; }
+    .introduccion .introduccion__article p {
+      margin-top: 10px; }
+
+/*MAIN FEATURES*/
+.features {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .features .features__section {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; }
+    .features .features__section .features__section--image {
+      flex-basis: 50%; }
+    .features .features__section .features__section--text {
+      flex-basis: 50%;
+      padding: 2.5em 0em 0em 5em; }
+      .features .features__section .features__section--text h3 {
+        color: #A6E1FA; }
+
+/*EXPANSIONS*/
+.expansions {
+  display: flex;
+  gap: 2em;
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 50px; }
+  .expansions .expansions__item {
+    flex-basis: 100%; }
+    .expansions .expansions__item h3 {
+      color: #A6A4A4; }
+    .expansions .expansions__item img {
+      width: 310px;
+      height: 451px; }
+
+/*Team cherry red logo*/
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .icon .icon__image {
+    width: 70%;
+    max-width: 580px; }
+
+/*Introducción de los desarrolladores*/
+.developers {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  .developers .developers__content {
+    flex-basis: 20%;
+    padding: 0px 50px;
+    margin: 10px;
+    text-justify: newspaper; }
+    .developers .developers__content h3 {
+      color: #d81c34; }
+
+/*Historia del equipo*/
+.history {
+  width: 100vw;
+  display: flex;
+  padding-left: 200px; }
+  .history .history__text {
+    margin-left: 50px;
+    flex-basis: 50%;
+    align-self: center; }
+    .history .history__text h3 {
+      text-align: left;
+      color: #A6A4A4; }
+    .history .history__text p {
+      margin-top: 10px; }
+  .history .history__photo {
+    padding: 40px 20px 10px 20px;
+    flex-basis: 50%;
+    margin-left: 50px; }
+    .history .history__photo img {
+      width: 60%;
+      height: auto; }
+
+/*Galeria de Screenshots*/
+/*==========================
+    PALETA DE COLORES
+==========================*/
+/*==========================
+        RESETS
+==========================*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none; }
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block; }
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+.gallery {
+  padding: 80px 0; }
+  .gallery img {
+    background-color: white;
+    padding: 5px;
+    width: 100%; }
+
+/*Sección de Mapas*/
+.indice__lista__element {
+  color: #A6A4A4; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: linear-gradient(to right bottom, #000000, #010101, #030202, #040304, #050405, #080609, #09080e, #090a12, #0a0d18, #09101d, #061322, #011627); }
+
+/*Clases para asignar formato a los textos*/
+.titulo {
+  font-family: 'Cinzel', serif;
+  color: #3891A6;
+  font-size: 3vw;
+  text-align: center; }
+
+.subTitulo {
+  font-family: 'Gowun Dodum', sans-serif;
+  color: #73628A;
+  font-size: 2rem; }
+
+.smallText {
+  font-family: 'Gowun Dodum', sans-serif;
+  color: #A6A4A4;
+  font-size: 1.9rem; }
+
+/*Divisor de secciones*/
+.page-divider {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px; }
+
+.page-divider img {
+  width: 1500px;
+  overflow: hidden; }
+
+/*Menú de navegación*/
+.logo {
+  width: 80px; }
+
+/*Footer styles*/
+footer {
+  margin-top: 40px;
+  text-align: center; }

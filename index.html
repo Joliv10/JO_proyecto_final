@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Gowun+Dodum&display=swap" rel="stylesheet">
+		<title>Hollow Knight - Home</title>
+	</head>
+	<body>
+
+		<!--Menú de navegación / Agregado usando bootstrap-->
+		<header>		
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container-fluid">
+			 		<a class="navbar-brand" href="https://www.teamcherry.com.au/" target="_blank"><img class="logo" src="./media/img/png/teamCherryLogoWhite.png" alt="team_cherry_logo"></a>
+			  		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>					
+			  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  			<li class="nav-item mx-3">
+									<a class="nav-link active subTitulo" aria-current="page" href="index.html">Home</a></li>
+				  				<li class="nav-item mx-3">
+									<a class="nav-link subTitulo" href="./sites/aboutDev.html">About Dev</a></li>
+				  				<li class="nav-item dropdown mx-3">
+									<a class="nav-link dropdown-toggle subTitulo" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  				<li class="smallText"><a class="dropdown-item" href="./sites/gallery.html">Gallery</a></li>
+					  				<li><hr class="dropdown-divider"></li>
+					  				<li class="smallText"><a class="dropdown-item" href="./sites/maps.html">Maps</a></li>
+								</ul>
+				  			</li>
+						</ul>
+			  		</div>
+
+				</div>
+		    </nav>
+		</header>
+
+		<!--=================================
+			INDEX ELEMENTS
+		==================================-->
+		<!--Titulo principal-->
+		<div class="mainTitle">
+			<img class="mainTitle__img"src="./media/img/png/logoVoidheart.png" alt="hollow_knight_title">
+		</div>
+
+		<!--Video-->
+		<div class="trailer">
+			<video class="trailer__video" controls loop>
+				<source src="./media/video/trailer.mp4" 	type="video/mp4">
+				Your browser doesn't support this type of media
+			</video>
+		</div>
+
+
+		<!--Sección de introducción-->
+		<section class="introduccion container">
+			<div class="introduccion__article">
+				<h1 class="subTitulo">BENEATH THE FADING TOWN OF DIRTHMOUTH SLEEPS HALLOWNEST, AN ANCIENT, INSECT KINGDOM.</h1>
+				<p class="smallText">Many are drawn beneath the surface, searching for riches, or glory, or answers to old secrets.</p>
+				<p class="smallText">Now something awakens within the ruin, a powerful force that turns bugs mad and robs travellers of their senses.</p>
+				<p class="smallText">What is the source of this new plague? What calamity befell this once great kingdom?</p>
+				<p class="smallText">To solve these mysteries will require a journey into the deepest depths, but some secrets may be better left buried...</p>
+			</div>	
+			<div class="introduccion__picture">
+				<img src="media/img/png/enemies.png" alt="enemies">
+			</div>
+			
+		</section>
+
+		<!--Divisor de seccion-->
+		<div class="page-divider">
+			<img src="media/img/png/divider.png" alt="divisor">
+		</div>
+
+		<!--Sección de features-->
+		<h2 class="titulo">Main Features</h2>
+		<section class="features">
+
+			<div class="features__section">
+				<div class="features__section--image">
+					<img src="./media/img/blueCave.jpg" alt="blue_cave_screenshot">
+				</div>
+				<div class="features__section--text">
+					<h3 class="subTitulo">EXPLORE A VAST INTERCONECTED WORLD</h3>
+					<p class="smallText">The world of Hollow Knight is brought to life in vivid, moody detail, its caverns alive with bizarre and terrifying creatures, each animated by hand in a traditional 2D style. Hallownest is expansive and open. Choose which paths you take, which enemies you face and find your own way forward.</p>
+				</div>
+			</div>
+
+			<div class="features__section">
+				<div class="features__section--image">
+					<img src="./media/img/dirtmouth.jpg" alt="dirthmout_npcs">
+				</div>
+				<div class="features__section--text">
+					<h3 class="subTitulo">ENCOUNTER A BIZARRE COLLECTION OF FRIENDS AND FOES</h3>
+					<p class="smallText">An enormous cast of cute and creepy characters all brought to life with traditional 2D frame-by-frame animation. Over 140 enemies and 30 epic bosses! Face ferocious beasts and vanquish ancient knights on your quest through the kingdom.Track down every last twisted foe and add them to your Hunter's Journal!</p>
+				</div>
+			</div>
+
+			<div class="features__section">
+				<div class="features__section--image">
+					<img src="./media/img/charms.jpg" alt="charms_screen">
+				</div>
+				<div class="features__section--text">
+					<h3 class="subTitulo">EVOLVE WITH POWERFUL NEW SKILLS AND ABILITIES</h3>
+					<p class="smallText">Gain spells, strength and speed. Leap to new heights on ethereal wings. Dash forward in a blazing flash. Blast foes with fiery Soul! Equip Charms, ancient relics that offer bizarre new powers and abilities. Choose your favourites and make your journey unique!</p>
+				</div>
+			</div>
+		</section>
+
+		<!--Divisor de seccion-->
+		<div class="page-divider">
+			<img src="media/img/png/divider.png" alt="divisor">
+		</div>
+
+		<!--Sección que muestra las expansiones incluidas-->
+		<h2 class="titulo">INCLUDING 4 CONTENT EXPANSIONS</h2>
+		<section class="expansions">
+				<div class="expansions__item">
+					<h3 class="subTitulo">LIFEBLOOD</h3>
+					<img src="media/img/lifeblood.jpg" alt="lifeblood_poster">
+					<p class="smallText">A Kingdom Upgraded! New Boss. Upgraded Bosses. Tweaks and Refinements across the whole game.</p>
+				</div>
+
+				<div class="expansions__item">
+					<h3 class="subTitulo">HIDDEN DREAMS</h3>
+					<img src="media/img/hiddenDreams.jpg" alt="hidden_dreams_poster">
+					<p class="smallText">Mighty new foes emerge!<br> 
+					New Boss fights. New Upgrades. New Music.</p>
+				</div>
+
+				<div class="expansions__item">
+					<h3 class="subTitulo">THE GRIMM TROUPE</h3>
+					<img src="./media/img/grimmTroupe.jpg">
+					<p class="smallText">Light the Nightmare Lantern. Summon the Troupe. New Major Quest. New Boss Fights. New Charms. New Enemies. New Friends.</p>
+				</div>
+
+				<div class="expansions__item">
+					<h3 class="subTitulo">GODMASTER</h3>
+					<img src="./media/img/godmaster.png">
+					<p class="smallText">Take your place amongst the Gods. New Characters and Quest. New Boss Fights. Epic New Music!</p>
+				</div>
+		</section>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+		<footer class="smallText">
+		Copyright and stuff, PO BOX 6545 Miami, FL 45786, PBX: 444-4265
+    	</footer>
+	</body>
+</html>
