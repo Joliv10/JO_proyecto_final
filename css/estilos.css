@@ -292,9 +292,26 @@ select {
     padding: 5px;
     width: 100%; }
 
-/*Sección de Mapas*/
-.indice__lista__element {
-  color: #A6A4A4; }
+/*MANUAL DEL JUEGO*/
+.indice {
+  display: flex;
+  justify-content: center; }
+
+/*How to play*/
+.howTo__intro {
+  margin: 20px;
+  display: flex;
+  justify-content: center; }
+  .howTo__intro h2 {
+    flex-basis: 40%;
+    font-size: 40px; }
+  .howTo__intro p {
+    padding-left: 50px;
+    padding-right: 50px; }
+
+.howTo__descriptions {
+  margin: 20px;
+  justify-content: space-around; }
 
 html {
   font-size: 62.5%; }
@@ -317,7 +334,7 @@ body {
 .smallText {
   font-family: 'Gowun Dodum', sans-serif;
   color: #A6A4A4;
-  font-size: 1.9rem; }
+  font-size: 1.7rem; }
 
 /*Divisor de secciones*/
 .page-divider {
@@ -326,7 +343,7 @@ body {
   margin-bottom: 25px; }
 
 .page-divider img {
-  width: 1500px;
+  width: 90%;
   overflow: hidden; }
 
 /*Menú de navegación*/
