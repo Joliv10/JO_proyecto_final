@@ -11,8 +11,33 @@
     }
 }
 
-/*Sección de Mapas*/
+/*MANUAL DEL JUEGO*/
 
-.indice__lista__element {
-    color: $quicksilver;
+.indice{
+    display: flex;
+    justify-content: center;
+}
+
+/*How to play*/
+
+.howTo__intro {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        flex-basis: 40%;
+        font-size: 40px;
+    }
+
+    p {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+}
+
+.howTo__descriptions {
+    margin: 20px;
+    justify-content: space-around;
 }
