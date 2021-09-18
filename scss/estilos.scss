@@ -3,7 +3,7 @@
 @import "base"; //Importa las variables de colores y el reset de html//
 @import "index"; //Importa los estilos de la pagina principal//
 @import "aboutDev"; //Importa los estilos de la seccion "About Dev"//
-@import "resources"; //Importa los estilos de la seccion "Resources"//
+@import "manual"; //Importa los estilos de la seccion "Resources"//
 
 
 //COMPONENTES GENERALES (Se usan en todas las páginas)//
@@ -18,21 +18,18 @@ body {
 
 /*Clases para asignar formato a los textos*/
 .titulo {
-    font-family: 'Cinzel', serif;
-    color: $teal;
-    font-size: 3vw;
+    color: $quicksilver;
+    font-size: 4rem;
     text-align: center;
 }
     
 .subTitulo {
-    font-family: 'Gowun Dodum', sans-serif;
-    color: $purple-ish;
-    font-size: 2rem;
+    color: $white-ish;
+    font-size: 2.5rem;
 }
     
 .smallText {
-    font-family: 'Gowun Dodum', sans-serif;
-    color: $quicksilver;
+    color: $white-ish;
     font-size: 1.7rem;
     }
 

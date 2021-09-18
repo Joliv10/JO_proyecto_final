@@ -25,34 +25,55 @@
 						<li class="nav-item mx-3">
 							<a class="nav-link active subTitulo" aria-current="page" href="../index.html">Home</a></li>
 						<li class="nav-item mx-3">
+							<a class="nav-link subTitulo" href="manual.html">The Game</a></li>	
+						<li class="nav-item mx-3">
 							<a class="nav-link subTitulo" href="aboutDev.html">About Dev</a></li>
-						<li class="nav-item dropdown mx-3">
-							<a class="nav-link dropdown-toggle subTitulo" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li class="smallText"><a class="dropdown-item" href="gallery.html">Gallery</a></li>
-								<li><hr class="dropdown-divider"></li>
-								<li class="smallText"><a class="dropdown-item" href="manual.html">Game Manual</a></li>
 							</ul>
 						</li>
 					</ul>
 				</div>
 	</header>
-
 	<div class="mainTitle">
 		<img class="mainTitle__img"src="../media/img/png/logoVoidheart.png" alt="hollow_knight_title">
 	</div>
-	<h1 class="titulo">Content</h1>
+
+
+	<section class="manualIntro">
+			<h1 class="manualIntro__title titulo">GAME MANUAL</h1>
+			<img class="manualIntro__picture" src="../media/img/manual/knightGuide.png" alt="knight_standing">	
+	</section>	
+
+	<h2 class="titulo">Contents</h2>
 	<section class="indice">
 		<ol class="indice__lista">
-			<li class="indice__lista__element"><a href="#howToPlay">How to Play</a></li>
+			<li class="indice__lista__element"><a href="#intro">Introduction</a></li>
+			<li class="indice__lista__element"><a href="#howToPlay">How To Play</a></li>
 			<li class="indice__lista__element"><a href="#menus">Menus</a></li>
-			<li class="indice__lista__element"><a href="#items">Items</a></li>
 		</ol>
 	</section>
-	
+
+	<div class="page-divider">
+		<img src="../media/img/png/divider.png" alt="divisor">
+	</div>
+
+	<section id="intro" class="gameIntro">
+		<div class="gameIntro__text">
+			<h2 class="subTitulo">1. INTRODUCTION</h2>
+			<h3 class="subTitulo">BENEATH THE FADING TOWN OF DIRTMOUTH LIES HALLOWNEST, AN ANCIENT, INSECT KINGDOM.</h3>
+			<p class="smallText">Many are drawn beneath the surface, searching for riches, or glory, or answer to old secrets.</p>
+			<p class="smallText">Now something awakes within the ruin, a powerful force that drives bugs mad and robs travellers of their senses.</p>
+			<p class="smallText">What is the source of this new plague? What calamity befell this once great kingdom?</p>
+			<p class="smallText">To solve these mysteries will require a journey into the deepest depths, but some secrets may be better left buried</p>
+		</div>		
+	</section>
+
+	<div class="page-divider">
+		<img src="../media/img/png/divider.png" alt="divisor">
+	</div>
+
 	<section id="howToPlay" class="howTo">
 		<div class="howTo__intro">
-			<h2 class="subTitulo">HOW TO PLAY</h2>
+			<h2 class="subTitulo">2. HOW TO PLAY</h2>
 			<p class="smallText">Enter the sprawling caverns of Hallownest. Many paths will initially be blocked to you, but discovering new powers and equipment will allow you to progress further.</p>
 		</div>
 
@@ -60,42 +81,46 @@
 			<img src="../media/img/manual/howto.JPG" alt="Main UI elements">
 		</div>
 
-		<div class="howTo__descriptions container">
-			<div class="row">
-				<div class="description col-2">
-					<h3 class="subTitulo">1. MASK SHARDS</h3>
-					<p class="smallText">Represents the strength of your shell. Each mask can take one hit. If all masks are destroyed the Knight will die.</p>
-				</div>
-				<div class="description col-2">
-					<h3 class="subTitulo">2. SOUL</h3>
-					<p class="smallText">Your current store of SOUL. Used to heal your shell and cast spells.
-					Collect more by striking enemies.</p>
-				</div>
-				<div class="description col-2">
-					<h3 class="subTitulo">3. GEO</h3>
-					<p class="smallText">The currency of Hallownest, fossilised bugs that can be traded for goods and services.</p>
-				</div>
-				<div class="description col-2">
-					<h3 class="subTitulo">4. SOUL VESSELS</h3>
-					<p class="smallText">Spherical receptacles that allow more SOUL to be carried. They can be acquired throughout Hallownest.</p>
-				</div>
-				<div class="description col-2">
-					<h3 class="subTitulo">5. THE KNIGHT</h3>
-					<p class="smallText">Players control an enigmatic wanderer who descends into Hallownest carrying only a broken nail to fend of foes.
-					</p>
-				</div>
-				<div class="description col-2">
-					<h3 class="subTitulo">6. ENEMIES</h3>
-					<p class="smallText">Hallownest's many caverns are filled with dangeroues creatures. Cut them down to acquire SOUL and Geo.</p>
-				</div>
-	
+		<div class="howTo__descriptions">
+			<div class="description">
+				<h3 class="subTitulo">1. MASK SHARDS</h3>
+				<p class="smallText">Represents the strength of your shell. Each mask can take one hit. If all masks are destroyed the Knight will die.</p>
 			</div>
+			
+			<div class="description">
+				<h3 class="subTitulo">2. SOUL</h3>
+				<p class="smallText">Your current store of SOUL. Used to heal your shell and cast spells.
+				Collect more by striking enemies.</p>
+			</div>
+			
+			<div class="description">
+				<h3 class="subTitulo">3. GEO</h3>
+				<p class="smallText">The currency of Hallownest, fossilised bugs that can be traded for goods and services.</p>
+				</div>
+			
+			<div class="description">
+				<h3 class="subTitulo">4. SOUL VESSELS</h3>
+				<p class="smallText">Spherical receptacles that allow more SOUL to be carried. They can be acquired throughout Hallownest.</p>
+			</div>
+			
+			<div class="description">
+				<h3 class="subTitulo">5. THE KNIGHT</h3>
+				<p class="smallText">Players control an enigmatic wanderer who descends into Hallownest carrying only a broken nail to fend of foes.</p>
+			</div>
+			<div class="description">
+				<h3 class="subTitulo">6. ENEMIES</h3>
+				<p class="smallText">Hallownest's many caverns are filled with dangeroues creatures. Cut them down to acquire SOUL and Geo.</p>
+			</div>					
 		</div>
 	</section>
+
 	<div class="page-divider">
 		<img src="../media/img/png/divider.png" alt="divisor">
 	</div>
 
+	<section id="menus" class="menuScreen">
+		
+	</section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 	<footer class="smallText">
