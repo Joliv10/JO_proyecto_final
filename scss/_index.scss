@@ -19,33 +19,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    .trailer__video {
-        width: 80%;
-    }
 }
 
 /*INTRODUCCION*/
 .introduccion {
-    width: 100%;
+    margin: auto;
+    width: 80%;
     display: flex;
     justify-content: center;
-    gap: 10px;
 
     .introduccion__picture {
-        flex-basis: 100%;
-        max-width: 880px;
+        flex-basis: 50%;
+
+        img {
+            width: 100%;
+        }
     }
 
     .introduccion__article {
-        flex-basis: 30%;
-        padding: 4.5em 8em 4.5em 4.5em;
+        flex-basis: 50%;
+        align-self: center;
+    }
+}
 
-        p {
-            margin-top: 10px;
+/*CONSOLES*/
+
+.stores {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .consoles {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+        a {
+            border-radius: 8px;
+            margin: 2%;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
         }
     }
 }
+
 
 /*MAIN FEATURES*/
 .features {
@@ -57,45 +80,84 @@
     align-items: center;
 
     .features__section {
-        width: 90%;
+        width: 85%;
         margin-top: 30px;
         display: flex;
         justify-content: center;
 
-        .features__section--image {
+        .features__section__image {
             flex-basis: 50%;
-
         }
 
-        .features__section--text {
+        .features__section__text {
             flex-basis: 50%;
-            padding: 2.5em 0em 0em 5em;
-
-            h3 {
-                color: $lightBlue;
-            }
+            align-self: center;
+            padding: 0 60px 0 60px;
         }
     }
 }
 
 /*EXPANSIONS*/
 .expansions {
+    width: 90%;
+    margin: auto;
     display: flex;
-    gap: 2em;
-    margin-top: 30px;
-    margin-right: 50px;
-    margin-left: 50px;
+    justify-content: center;
+    gap: 45px;
 
     .expansions__item {
-        flex-basis: 100%;
+        width: 320px;
         
         h3 {
             color: $quicksilver;
+            text-align: center;
+            margin: 0 0 13px 0;
         }
 
         img {
             width: 310px;
             height: 451px;
         }
+
+        p {
+            margin: 10px 0 0 0;
+        }
     }
+}
+
+/*SOUNDTRACK*/
+
+.soundtrack {
+    width: 85%;
+    margin: 25px auto 20px auto;
+    display: flex;
+    justify-content: center;
+
+    .soundtrack__text {
+        padding: 20px;
+        width: 35%;
+
+        a {
+            display: inline-block;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: $quicksilver;
+            text-decoration: none;
+        }
+    }
+
+    .soundtrack__playlist {
+        width: 65%;
+
+        .playlist {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+        }
+    }
+}
+
+.gallery {
+    width: 90%;
+    margin: auto;
 }

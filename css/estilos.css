@@ -129,23 +129,39 @@ select {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .trailer .trailer__video {
-    width: 80%; }
 
 /*INTRODUCCION*/
 .introduccion {
-  width: 100%;
+  margin: auto;
+  width: 80%;
   display: flex;
-  justify-content: center;
-  gap: 10px; }
+  justify-content: center; }
   .introduccion .introduccion__picture {
-    flex-basis: 100%;
-    max-width: 880px; }
+    flex-basis: 50%; }
+    .introduccion .introduccion__picture img {
+      width: 100%; }
   .introduccion .introduccion__article {
-    flex-basis: 30%;
-    padding: 4.5em 8em 4.5em 4.5em; }
-    .introduccion .introduccion__article p {
-      margin-top: 10px; }
+    flex-basis: 50%;
+    align-self: center; }
+
+/*CONSOLES*/
+.stores {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box; }
+  .stores .consoles {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; }
+    .stores .consoles a {
+      border-radius: 8px;
+      margin: 2%; }
+      .stores .consoles a img {
+        width: 50px;
+        height: 50px; }
 
 /*MAIN FEATURES*/
 .features {
@@ -156,32 +172,61 @@ select {
   flex-direction: column;
   align-items: center; }
   .features .features__section {
-    width: 90%;
+    width: 85%;
     margin-top: 30px;
     display: flex;
     justify-content: center; }
-    .features .features__section .features__section--image {
+    .features .features__section .features__section__image {
       flex-basis: 50%; }
-    .features .features__section .features__section--text {
+    .features .features__section .features__section__text {
       flex-basis: 50%;
-      padding: 2.5em 0em 0em 5em; }
-      .features .features__section .features__section--text h3 {
-        color: #A6E1FA; }
+      align-self: center;
+      padding: 0 60px 0 60px; }
 
 /*EXPANSIONS*/
 .expansions {
+  width: 90%;
+  margin: auto;
   display: flex;
-  gap: 2em;
-  margin-top: 30px;
-  margin-right: 50px;
-  margin-left: 50px; }
+  justify-content: center;
+  gap: 45px; }
   .expansions .expansions__item {
-    flex-basis: 100%; }
+    width: 320px; }
     .expansions .expansions__item h3 {
-      color: #A6A4A4; }
+      color: #A6A4A4;
+      text-align: center;
+      margin: 0 0 13px 0; }
     .expansions .expansions__item img {
       width: 310px;
       height: 451px; }
+    .expansions .expansions__item p {
+      margin: 10px 0 0 0; }
+
+/*SOUNDTRACK*/
+.soundtrack {
+  width: 85%;
+  margin: 25px auto 20px auto;
+  display: flex;
+  justify-content: center; }
+  .soundtrack .soundtrack__text {
+    padding: 20px;
+    width: 35%; }
+    .soundtrack .soundtrack__text a {
+      display: inline-block;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #A6A4A4;
+      text-decoration: none; }
+  .soundtrack .soundtrack__playlist {
+    width: 65%; }
+    .soundtrack .soundtrack__playlist .playlist {
+      width: 100%;
+      height: 100%;
+      padding: 20px; }
+
+.gallery {
+  width: 90%;
+  margin: auto; }
 
 /*Team cherry red logo*/
 .icon {
@@ -227,91 +272,70 @@ select {
       width: 60%;
       height: auto; }
 
-/*Galeria de Screenshots*/
-/*==========================
-    PALETA DE COLORES
-==========================*/
-/*==========================
-        RESETS
-==========================*/
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box; }
+/*♥♥♥♥♥ MANUAL DEL JUEGO ♥♥♥♥♥*/
+/*Primera parte del manual, con titulo e imagen*/
+.manualIntro {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .manualIntro .manualIntro__title {
+    font-size: 70px; }
 
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0; }
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-  list-style: none; }
-
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth; }
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5; }
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto; }
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block; }
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit; }
-
-.gallery {
-  padding: 80px 0; }
-  .gallery img {
-    background-color: white;
-    padding: 5px;
-    width: 100%; }
-
-/*MANUAL DEL JUEGO*/
+/*Indice de contenidos*/
 .indice {
   display: flex;
   justify-content: center; }
 
-/*How to play*/
-.howTo__intro {
-  margin: 20px;
-  display: flex;
-  justify-content: center; }
-  .howTo__intro h2 {
-    flex-basis: 40%;
-    font-size: 40px; }
-  .howTo__intro p {
-    padding-left: 50px;
-    padding-right: 50px; }
+/*Introducción al juego*/
+.gameIntro {
+  width: 90%;
+  margin: auto;
+  height: 650px;
+  background-image: url(../media/img/manual/introduction.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .gameIntro .gameIntro__text {
+    width: 50%;
+    margin: 50px;
+    float: right; }
 
-.howTo__descriptions {
-  margin: 20px;
+/*How to play*/
+.howTo .howTo__intro {
+  width: 90%;
+  margin: auto;
+  display: flex;
   justify-content: space-around; }
+
+.howTo .howTo__image {
+  width: 90%;
+  margin: auto; }
+
+.howTo .howTo__descriptions {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; }
+  .howTo .howTo__descriptions .description {
+    width: 650px;
+    margin: 25px; }
+
+/*Menus*/
+.menuScreen {
+  width: 90%;
+  margin: auto; }
+  .menuScreen .acomodar {
+    display: flex;
+    justify-content: space-around; }
+    .menuScreen .acomodar .menuScreen__item {
+      margin: 20px; }
+
+/*Items*/
+.contenedor {
+  display: flex; }
 
 html {
   font-size: 62.5%; }
@@ -321,19 +345,16 @@ body {
 
 /*Clases para asignar formato a los textos*/
 .titulo {
-  font-family: 'Cinzel', serif;
-  color: #3891A6;
-  font-size: 3vw;
+  color: #A6A4A4;
+  font-size: 4rem;
   text-align: center; }
 
 .subTitulo {
-  font-family: 'Gowun Dodum', sans-serif;
-  color: #73628A;
-  font-size: 2rem; }
+  color: #FFFBFF;
+  font-size: 2.5rem; }
 
 .smallText {
-  font-family: 'Gowun Dodum', sans-serif;
-  color: #A6A4A4;
+  color: #FFFBFF;
   font-size: 1.7rem; }
 
 /*Divisor de secciones*/

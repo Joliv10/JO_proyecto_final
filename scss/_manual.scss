@@ -1,0 +1,94 @@
+
+/*♥♥♥♥♥ MANUAL DEL JUEGO ♥♥♥♥♥*/
+
+/*Primera parte del manual, con titulo e imagen*/
+
+.manualIntro {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .manualIntro__title {
+        font-size: 70px;
+    }
+}
+
+
+/*Indice de contenidos*/
+
+.indice {
+    display: flex;
+    justify-content: center;
+}
+
+/*Introducción al juego*/
+
+.gameIntro {
+    width: 90%;
+    margin: auto;
+    height: 650px;
+    background-image: url(../media/img/manual/introduction.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .gameIntro__text {
+        width: 50%;
+        margin: 50px;
+        float: right;
+    }
+}
+
+/*How to play*/
+
+.howTo {
+    .howTo__intro {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .howTo__image {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .howTo__descriptions {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .description {
+            width: 650px;
+            margin: 25px;
+        }
+    }
+}
+
+/*Menus*/
+
+.menuScreen {
+    width: 90%;
+    margin: auto;
+
+    .acomodar {
+        display: flex;
+        justify-content: space-around;
+
+        .menuScreen__item {
+            margin: 20px;
+        }
+    }
+}
+
+
+/*Items*/
+.contenedor {
+    display: flex;
+}
