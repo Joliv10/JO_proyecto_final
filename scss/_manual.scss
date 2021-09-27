@@ -46,28 +46,49 @@
 
 .howTo {
     .howTo__intro {
-        width: 80%;
+        width: 90%;
         margin: auto;
         display: flex;
         justify-content: space-around;
     }
 
     .howTo__image {
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 
 
     .howTo__descriptions {
-        width: 80%;
+        width: 90%;
         margin: auto;
         display: flex;
         justify-content: space-between;
 
         .description {
+            width: 650px;
+            margin: 25px;
+        }
+    }
+}
+
+/*Menus*/
+
+.menuScreen {
+    width: 90%;
+    margin: auto;
+
+    .acomodar {
+        display: flex;
+        justify-content: space-around;
+
+        .menuScreen__item {
             margin: 20px;
         }
     }
 }
 
-    
+
+/*Items*/
+.contenedor {
+    display: flex;
+}

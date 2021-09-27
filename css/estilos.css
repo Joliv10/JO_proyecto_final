@@ -144,6 +144,25 @@ select {
     flex-basis: 50%;
     align-self: center; }
 
+/*CONSOLES*/
+.stores {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box; }
+  .stores .consoles {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; }
+    .stores .consoles a {
+      border-radius: 8px;
+      margin: 2%; }
+      .stores .consoles a img {
+        width: 50px;
+        height: 50px; }
+
 /*MAIN FEATURES*/
 .features {
   width: 100%;
@@ -182,6 +201,32 @@ select {
       height: 451px; }
     .expansions .expansions__item p {
       margin: 10px 0 0 0; }
+
+/*SOUNDTRACK*/
+.soundtrack {
+  width: 85%;
+  margin: 25px auto 20px auto;
+  display: flex;
+  justify-content: center; }
+  .soundtrack .soundtrack__text {
+    padding: 20px;
+    width: 35%; }
+    .soundtrack .soundtrack__text a {
+      display: inline-block;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #A6A4A4;
+      text-decoration: none; }
+  .soundtrack .soundtrack__playlist {
+    width: 65%; }
+    .soundtrack .soundtrack__playlist .playlist {
+      width: 100%;
+      height: 100%;
+      padding: 20px; }
+
+.gallery {
+  width: 90%;
+  margin: auto; }
 
 /*Team cherry red logo*/
 .icon {
@@ -260,22 +305,37 @@ select {
 
 /*How to play*/
 .howTo .howTo__intro {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-around; }
 
 .howTo .howTo__image {
-  width: 80%;
+  width: 90%;
   margin: auto; }
 
 .howTo .howTo__descriptions {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between; }
   .howTo .howTo__descriptions .description {
-    margin: 20px; }
+    width: 650px;
+    margin: 25px; }
+
+/*Menus*/
+.menuScreen {
+  width: 90%;
+  margin: auto; }
+  .menuScreen .acomodar {
+    display: flex;
+    justify-content: space-around; }
+    .menuScreen .acomodar .menuScreen__item {
+      margin: 20px; }
+
+/*Items*/
+.contenedor {
+  display: flex; }
 
 html {
   font-size: 62.5%; }

@@ -42,6 +42,34 @@
     }
 }
 
+/*CONSOLES*/
+
+.stores {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .consoles {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+        a {
+            border-radius: 8px;
+            margin: 2%;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+
 /*MAIN FEATURES*/
 .features {
     width: 100%;
@@ -95,4 +123,41 @@
             margin: 10px 0 0 0;
         }
     }
+}
+
+/*SOUNDTRACK*/
+
+.soundtrack {
+    width: 85%;
+    margin: 25px auto 20px auto;
+    display: flex;
+    justify-content: center;
+
+    .soundtrack__text {
+        padding: 20px;
+        width: 35%;
+
+        a {
+            display: inline-block;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: $quicksilver;
+            text-decoration: none;
+        }
+    }
+
+    .soundtrack__playlist {
+        width: 65%;
+
+        .playlist {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+        }
+    }
+}
+
+.gallery {
+    width: 90%;
+    margin: auto;
 }
