@@ -225,8 +225,22 @@ select {
       padding: 20px; }
 
 .gallery {
-  width: 90%;
+  width: 80%;
   margin: auto; }
+
+@media (max-width: 900px) {
+  .introduccion {
+    flex-direction: column; }
+  .features__section {
+    flex-direction: column; }
+  .invertir {
+    flex-direction: column-reverse; }
+  .expansions {
+    flex-direction: column;
+    align-items: center; }
+  .soundtrack {
+    flex-direction: column;
+    align-items: center; } }
 
 /*Team cherry red logo*/
 .icon {
